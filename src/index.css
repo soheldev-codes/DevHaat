@@ -1,11 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
 @import "tailwindcss";
+
 @plugin "daisyui" {
   themes:
     light --default,
     dark --prefersdark;
 }
 
+.bg-devhaat {
+  background-image: linear-gradient(to right, #4f39f6, #9514fa);
+}
+
+.btn-devhaat {
+  @apply text-white px-5 py-2 rounded-lg cursor-pointer transition-all duration-100;
+  background-image: linear-gradient(to right, #4f39f6, #9514fa);
+}
+.btn-devhaat-outline {
+  @apply text-black border flex items-center gap-2 px-5 py-2 rounded-lg cursor-pointer;
+}
+
+.btn-devhaat:hover {
+  opacity: 0.8;
+}
+.btn-devhaat-outline:hover {
+  background-image: linear-gradient(to right, #4f39f6, #9514fa);
+  color: white;
+}
+
 body {
   font-family: "Manrope", sans-serif;
+}
+img {
+  max-width: 100%;
 }
