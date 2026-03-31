@@ -21,7 +21,7 @@ const Navbar = ({ cart }) => {
     </>
   );
   return (
-    <nav className="bg-base-100 shadow-sm sticky top-0">
+    <nav className="bg-base-100 shadow-sm sticky top-0 z-10">
       <div className="navbar container mx-auto ">
         <div className="navbar-start">
           <div className="dropdown">
