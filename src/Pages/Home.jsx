@@ -4,6 +4,7 @@ import Footer from "../Components/Footer/Footer";
 import Banner from "../Components/Banner/Banner";
 import InfoCount from "../Components/InfoCount/InfoCount";
 import Products from "../Components/Products/Products";
+import GetStarted from "../Components/GetStarted/GetStarted";
 
 const Home = () => {
   const [view, setView] = useState("products");
@@ -37,6 +38,7 @@ const Home = () => {
         handleCheckout={handleCheckout}
         addToCart={addToCart}
       />
+      <GetStarted />
       <Footer />
     </>
   );
