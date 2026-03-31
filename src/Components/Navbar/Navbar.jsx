@@ -1,6 +1,6 @@
 import React from "react";
 
-const Navbar = () => {
+const Navbar = ({ cart }) => {
   const Navlinks = (
     <>
       <li>
@@ -21,7 +21,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <nav className="bg-base-100 shadow-sm">
+    <nav className="bg-base-100 shadow-sm sticky top-0">
       <div className="navbar container mx-auto ">
         <div className="navbar-start">
           <div className="dropdown">
@@ -49,9 +49,11 @@ const Navbar = () => {
               {Navlinks}
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">
-            <span className="font-bold ">Dev</span>
-            <span className="">Haat</span>
+          <a className=" text-4xl font-extrabold cursor-pointer">
+            <span className=" bg-gradient-to-r from-[#4f39f6] to-[#9514fa] bg-clip-text text-transparent ">
+              Dev
+            </span>
+            Haat
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">
@@ -75,11 +77,15 @@ const Navbar = () => {
                   d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
                 />{" "}
               </svg>
-              <span className="badge badge-sm indicator-item">8</span>
+              <span className="badge badge-sm indicator-item">
+                {cart.length}
+              </span>
             </div>
           </div>
           <a className="link link-hover font-semibold text-base">Login</a>
-          <a className="btn font-bold text-base">Get Started</a>
+          <a className="cursor-pointer font-semibold  py-2 px-4 rounded-full text-white bg-gradient-to-r from-[#4f39f6] to-[#9514fa]">
+            Get Started
+          </a>
         </div>
       </div>
     </nav>

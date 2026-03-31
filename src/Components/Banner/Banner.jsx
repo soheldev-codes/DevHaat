@@ -4,9 +4,16 @@ import { CiPlay1 } from "react-icons/ci";
 const Banner = () => {
   return (
     <div className="md:flex items-center justify-between gap-10 px-4 py-20 container mx-auto">
-      <div className="space-y-4 py-8 md:py-0">
-        <div className="badge badge-soft badge-success">
-          New: AI-Powered Tools Available
+      <div className="space-y-8 py-8 md:py-0">
+        <div className="bg-[#e1e7ff] py-2 px-4 rounded-full w-fit flex items-center">
+          <img
+            className="w-4 mr-2"
+            src="https://i.ibb.co.com/vxCwLwxc/badge.png"
+            alt="badge"
+          />
+          <span className="bg-gradient-to-r from-[#4f39f6] to-[#9514fa] bg-clip-text text-transparent text-base font-bold">
+            New: AI-Powered Tools Available
+          </span>
         </div>
         <h1 className=" text-4xl md:text-7xl font-extrabold">
           Supercharge Your <br /> Digital Workflow
