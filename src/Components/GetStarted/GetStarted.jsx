@@ -29,7 +29,7 @@ const GetStarted = () => {
   };
 
   return (
-    <section className="py-16 bg-[#f9fafc] text-center">
+    <section className="py-4 md:py-16 bg-[#f9fafc] text-center">
       <h2 className="text-3xl font-bold mb-2">Get Started In 3 Steps</h2>
       <p className="text-base-content/60 mb-10">
         Start using premium tools in minutes

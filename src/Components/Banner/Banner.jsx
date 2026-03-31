@@ -3,7 +3,7 @@ import { CiPlay1 } from "react-icons/ci";
 
 const Banner = () => {
   return (
-    <div className="md:flex items-center justify-between gap-10 px-4 py-20 container mx-auto">
+    <div className="md:flex items-center justify-between gap-10 px-4 py-4  md:py-20 container mx-auto">
       <div className="space-y-8 py-8 md:py-0">
         <div className="bg-[#e1e7ff] py-2 px-4 rounded-full w-fit flex items-center">
           <img

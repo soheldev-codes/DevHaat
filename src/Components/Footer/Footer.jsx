@@ -74,11 +74,11 @@ const Footer = () => {
 
       <div className="text-white container mx-auto ">
         <hr className="text-gray-600 " />
-        <div className="py-6 px-4 flex justify-between">
+        <div className="py-6 px-4 flex flex-col md:flex-row gap-4 text-center justify-between">
           <div>
             <p>© 2026 DevHaat — Digital Tools Marketplace</p>
           </div>
-          <div className=" flex gap-4">
+          <div className=" flex justify-center gap-4">
             <p>Privacy Policy </p>
             <p>Terms of Service </p>
             <p>Cookies</p>

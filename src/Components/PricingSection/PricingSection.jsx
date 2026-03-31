@@ -9,13 +9,13 @@ const PricingSection = () => {
   };
 
   return (
-    <section className="py-16  ">
+    <section className="py-4 md:py-16  ">
       <h2 className="text-3xl text-center font-bold mb-2"> Pricing Plan</h2>
       <p className="text-base-content/60 mb-10 text-center">
         Choose the plan that fits your needs
       </p>
 
-      <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto px-4">
+      <div className="grid md:grid-cols-3 gap-6 space-y-4 max-w-6xl mx-auto px-4">
         {pricingData.map((plan) => (
           <div
             key={plan.id}

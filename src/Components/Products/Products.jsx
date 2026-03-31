@@ -17,7 +17,7 @@ const Products = ({
   addToCart,
 }) => {
   return (
-    <div className="py-20">
+    <div className="py-8 md:py-20 px-4">
       {/* 🔥 TITLE */}
       <div className="text-center mb-8">
         <h1 className="text-3xl md:text-4xl font-bold">
