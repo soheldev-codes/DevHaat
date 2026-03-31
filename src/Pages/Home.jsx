@@ -7,6 +7,7 @@ import Products from "../Components/Products/Products";
 import GetStarted from "../Components/GetStarted/GetStarted";
 import PricingSection from "../Components/PricingSection/PricingSection";
 import toast from "react-hot-toast";
+import CTASection from "../Components/CTASection/CTASection";
 
 const Home = () => {
   const [view, setView] = useState("products");
@@ -45,6 +46,7 @@ const Home = () => {
       />
       <GetStarted />
       <PricingSection />
+      <CTASection />
       <Footer />
     </>
   );
